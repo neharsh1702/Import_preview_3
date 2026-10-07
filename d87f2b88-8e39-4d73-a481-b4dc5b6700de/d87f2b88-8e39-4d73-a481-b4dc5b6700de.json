@@ -18,8 +18,8 @@
       "WorkflowStatusId": "1368161e-584c-4c64-999d-85dd0eed4370",
       "AgentConfigurationId": "",
       "Description": "",
-      "DateCreation": "10/7/2026 1:30:00 PM +00:00",
-      "DateModify": "10/7/2026 1:30:00 PM +00:00",
+      "DateCreation": "10/7/2026 1:30:18 PM +00:00",
+      "DateModify": "10/7/2026 1:30:18 PM +00:00",
       "Title": "F2",
       "Type": "Flow",
       "IsDeleted": "False",
@@ -55,7 +55,7 @@
                 "Key": "Header",
                 "Title": "Start",
                 "SortOrder": "0",
-                "ValueId": "b91e8788-6417-43b0-8e0d-b4dc790200de",
+                "ValueId": "b5a6a195-fc36-4283-ad4c-b4dc843f00de",
                 "LType": "LSignal",
                 "IsExpanded": "False",
                 "IsBlockPropertyChecked": "",
@@ -66,7 +66,7 @@
                   {
                     "OutputFlowPropertyId": "566fd629-23c5-4768-93ef-abfd633b95ed",
                     "InputFlowPropertyId": "e90c01e3-7968-41e1-9096-7376e0379909",
-                    "Id": "526c1e85-81ae-49ed-bf9d-b4dc790200de",
+                    "Id": "1acb3a26-a806-4e9f-8c6c-b4dc843f00de",
                     "WireGuides": []
                   }
                 ]
@@ -79,7 +79,7 @@
                 "Key": "StartAction",
                 "Title": "",
                 "SortOrder": "1",
-                "ValueId": "6a59d333-365b-49d8-8d35-b4dc790200de",
+                "ValueId": "4076ca8d-6e14-46c4-ae06-b4dc843f00de",
                 "LType": "LText",
                 "IsExpanded": "False",
                 "IsBlockPropertyChecked": "True",
@@ -89,7 +89,7 @@
                 "Connections": [],
                 "Value": {
                   "Value": "NoAction",
-                  "Id": "6a59d333-365b-49d8-8d35-b4dc790200de"
+                  "Id": "4076ca8d-6e14-46c4-ae06-b4dc843f00de"
                 }
               }
             ]
@@ -115,7 +115,7 @@
                 "Key": "ActionPrompt",
                 "Title": "",
                 "SortOrder": "1",
-                "ValueId": "beb92306-4bb7-4534-85ae-b4dc790200de",
+                "ValueId": "82b5518b-4add-4362-98b6-b4dc843f00de",
                 "LType": "LSignal",
                 "IsExpanded": "False",
                 "IsBlockPropertyChecked": "True",
@@ -130,7 +130,7 @@
                     "Key": "TokenizedText",
                     "Title": "",
                     "SortOrder": "0",
-                    "ValueId": "db6cfd97-3689-47e2-9e01-b4dc790200de",
+                    "ValueId": "6b98107a-1716-4e17-be76-b4dc843f00de",
                     "LType": "LText",
                     "IsExpanded": "False",
                     "IsBlockPropertyChecked": "True",
@@ -140,7 +140,7 @@
                     "Connections": [],
                     "Value": {
                       "Value": "",
-                      "Id": "db6cfd97-3689-47e2-9e01-b4dc790200de"
+                      "Id": "6b98107a-1716-4e17-be76-b4dc843f00de"
                     }
                   },
                   {
@@ -151,7 +151,7 @@
                     "Key": "Field 2",
                     "Title": "Field 2",
                     "SortOrder": "2",
-                    "ValueId": "17b2e863-397f-47a1-b0c1-b4dc790200de",
+                    "ValueId": "d597df6a-29a1-4e49-9f83-b4dc843f00de",
                     "LType": "LSignal",
                     "IsExpanded": "False",
                     "IsBlockPropertyChecked": "",
@@ -165,10 +165,27 @@
                     "ParentFlowPropertyId": "51183818-e907-4dd2-abb8-93565b8a748c",
                     "TemplateId": "",
                     "Type": "TextField",
+                    "Key": "Field 3",
+                    "Title": "Field 3",
+                    "SortOrder": "3",
+                    "ValueId": "c9c0612a-6270-4ca4-9c1a-b4dc843f00de",
+                    "LType": "LSignal",
+                    "IsExpanded": "False",
+                    "IsBlockPropertyChecked": "",
+                    "CustomSortOrder": "0",
+                    "Id": "83012271-d6d8-4931-b1e6-4c785e664275",
+                    "ChildProperties": [],
+                    "Connections": []
+                  },
+                  {
+                    "ParentBuildingBlockId": "89a81ce0-6e2a-4740-84c4-93dd5124c3bb",
+                    "ParentFlowPropertyId": "51183818-e907-4dd2-abb8-93565b8a748c",
+                    "TemplateId": "",
+                    "Type": "TextField",
                     "Key": "Field 1",
                     "Title": "Field 1",
                     "SortOrder": "1",
-                    "ValueId": "b94aaa0c-1485-4a79-8a37-b4dc790200de",
+                    "ValueId": "8c5e1415-9166-4497-ae5d-b4dc843f00de",
                     "LType": "LSignal",
                     "IsExpanded": "False",
                     "IsBlockPropertyChecked": "",
@@ -188,7 +205,7 @@
                 "Key": "DefaultTimeout",
                 "Title": "",
                 "SortOrder": "3",
-                "ValueId": "633d7c82-d499-45c4-919f-b4dc790200de",
+                "ValueId": "1d34f1cf-4c4f-4c47-baf8-b4dc843f00de",
                 "LType": "LSignal",
                 "IsExpanded": "False",
                 "IsBlockPropertyChecked": "",
@@ -203,7 +220,7 @@
                     "Key": "Timeout_Checked",
                     "Title": "",
                     "SortOrder": "1",
-                    "ValueId": "1daf97fa-868b-42e5-9bb9-b4dc790200de",
+                    "ValueId": "1a450502-a5be-4d59-9080-b4dc843f00de",
                     "LType": "LNumber",
                     "IsExpanded": "False",
                     "IsBlockPropertyChecked": "",
@@ -213,7 +230,7 @@
                     "Connections": [],
                     "Value": {
                       "Value": "30",
-                      "Id": "1daf97fa-868b-42e5-9bb9-b4dc790200de"
+                      "Id": "1a450502-a5be-4d59-9080-b4dc843f00de"
                     }
                   },
                   {
@@ -224,7 +241,7 @@
                     "Key": "IsDefaultTimeout",
                     "Title": "",
                     "SortOrder": "0",
-                    "ValueId": "667246e1-35c1-4046-af2e-b4dc790200de",
+                    "ValueId": "04ba3c02-5f9e-4ceb-8b41-b4dc843f00de",
                     "LType": "LBoolean",
                     "IsExpanded": "False",
                     "IsBlockPropertyChecked": "",
@@ -234,7 +251,7 @@
                     "Connections": [],
                     "Value": {
                       "Value": "False",
-                      "Id": "667246e1-35c1-4046-af2e-b4dc790200de"
+                      "Id": "04ba3c02-5f9e-4ceb-8b41-b4dc843f00de"
                     }
                   },
                   {
@@ -245,7 +262,7 @@
                     "Key": "Timeout",
                     "Title": "",
                     "SortOrder": "2",
-                    "ValueId": "e7896249-21c0-4860-b10f-b4dc790200de",
+                    "ValueId": "f4f65a84-a073-46de-8fde-b4dc843f00de",
                     "LType": "LNumber",
                     "IsExpanded": "False",
                     "IsBlockPropertyChecked": "",
@@ -255,7 +272,7 @@
                     "Connections": [],
                     "Value": {
                       "Value": "30",
-                      "Id": "e7896249-21c0-4860-b10f-b4dc790200de"
+                      "Id": "f4f65a84-a073-46de-8fde-b4dc843f00de"
                     }
                   }
                 ],
@@ -269,7 +286,7 @@
                 "Key": "Source",
                 "Title": "",
                 "SortOrder": "5",
-                "ValueId": "3e102571-97a8-42ae-b4c2-b4dc790200de",
+                "ValueId": "4b1b3e69-d75b-415e-bf7a-b4dc843f00de",
                 "LType": "LSignal",
                 "IsExpanded": "False",
                 "IsBlockPropertyChecked": "",
@@ -286,7 +303,7 @@
                 "Key": "BrowserWindow",
                 "Title": "",
                 "SortOrder": "6",
-                "ValueId": "186e2abd-7fb9-4fc7-baf6-b4dc790200de",
+                "ValueId": "d076107e-ab20-4b1c-8478-b4dc843f00de",
                 "LType": "LSignal",
                 "IsExpanded": "False",
                 "IsBlockPropertyChecked": "",
@@ -303,7 +320,7 @@
                 "Key": "Request",
                 "Title": "",
                 "SortOrder": "8",
-                "ValueId": "0726db3a-b6c7-4d7b-a378-b4dc790200de",
+                "ValueId": "74e614ce-d1a9-42cc-b711-b4dc843f00de",
                 "LType": "LSignal",
                 "IsExpanded": "False",
                 "IsBlockPropertyChecked": "",
@@ -318,7 +335,7 @@
                     "Key": "WaitRequests",
                     "Title": "",
                     "SortOrder": "0",
-                    "ValueId": "972fdde5-46fd-4e93-9493-b4dc790200de",
+                    "ValueId": "d4467895-7fa4-46a7-b666-b4dc843f00de",
                     "LType": "LBoolean",
                     "IsExpanded": "False",
                     "IsBlockPropertyChecked": "",
@@ -328,7 +345,7 @@
                     "Connections": [],
                     "Value": {
                       "Value": "False",
-                      "Id": "972fdde5-46fd-4e93-9493-b4dc790200de"
+                      "Id": "d4467895-7fa4-46a7-b666-b4dc843f00de"
                     }
                   },
                   {
@@ -339,7 +356,7 @@
                     "Key": "WaitRequestsTimeout",
                     "Title": "",
                     "SortOrder": "1",
-                    "ValueId": "b9c75417-a95a-4290-9ed7-b4dc790200de",
+                    "ValueId": "c4f25d45-49fe-4894-a02d-b4dc843f00de",
                     "LType": "LNumber",
                     "IsExpanded": "False",
                     "IsBlockPropertyChecked": "",
@@ -349,7 +366,7 @@
                     "Connections": [],
                     "Value": {
                       "Value": "3",
-                      "Id": "b9c75417-a95a-4290-9ed7-b4dc790200de"
+                      "Id": "c4f25d45-49fe-4894-a02d-b4dc843f00de"
                     }
                   }
                 ],
@@ -363,7 +380,7 @@
                 "Key": "DOMChange",
                 "Title": "",
                 "SortOrder": "7",
-                "ValueId": "26588f8f-64e0-4946-ae86-b4dc790200de",
+                "ValueId": "d3c433ff-3783-4db6-8cbb-b4dc843f00de",
                 "LType": "LSignal",
                 "IsExpanded": "False",
                 "IsBlockPropertyChecked": "",
@@ -378,7 +395,7 @@
                     "Key": "WaitDOMChange",
                     "Title": "",
                     "SortOrder": "0",
-                    "ValueId": "b05bb67d-186d-4735-b40c-b4dc790200de",
+                    "ValueId": "37a82088-6049-401c-a2d3-b4dc843f00de",
                     "LType": "LBoolean",
                     "IsExpanded": "False",
                     "IsBlockPropertyChecked": "",
@@ -388,7 +405,7 @@
                     "Connections": [],
                     "Value": {
                       "Value": "True",
-                      "Id": "b05bb67d-186d-4735-b40c-b4dc790200de"
+                      "Id": "37a82088-6049-401c-a2d3-b4dc843f00de"
                     }
                   },
                   {
@@ -399,7 +416,7 @@
                     "Key": "WaitDOMChangeTimeout",
                     "Title": "",
                     "SortOrder": "1",
-                    "ValueId": "ee8ff10a-e1bd-4542-a9a6-b4dc790200de",
+                    "ValueId": "8c5a271b-871b-460d-820b-b4dc843f00de",
                     "LType": "LNumber",
                     "IsExpanded": "False",
                     "IsBlockPropertyChecked": "",
@@ -409,7 +426,7 @@
                     "Connections": [],
                     "Value": {
                       "Value": "3",
-                      "Id": "ee8ff10a-e1bd-4542-a9a6-b4dc790200de"
+                      "Id": "8c5a271b-871b-460d-820b-b4dc843f00de"
                     }
                   }
                 ],
@@ -423,7 +440,7 @@
                 "Key": "CheckBox",
                 "Title": "",
                 "SortOrder": "2",
-                "ValueId": "9009b16f-882c-4bdd-9361-b4dc790200de",
+                "ValueId": "80884cb6-4850-4b2a-a0bb-b4dc843f00de",
                 "LType": "LBoolean",
                 "IsExpanded": "False",
                 "IsBlockPropertyChecked": "",
@@ -433,7 +450,7 @@
                 "Connections": [],
                 "Value": {
                   "Value": "True",
-                  "Id": "9009b16f-882c-4bdd-9361-b4dc790200de"
+                  "Id": "80884cb6-4850-4b2a-a0bb-b4dc843f00de"
                 }
               },
               {
@@ -444,7 +461,7 @@
                 "Key": "Header",
                 "Title": "AI Action",
                 "SortOrder": "0",
-                "ValueId": "3d289269-92df-41bc-9f5d-b4dc790200de",
+                "ValueId": "0ce3e174-a655-4e46-809d-b4dc843f00de",
                 "LType": "LSignal",
                 "IsExpanded": "False",
                 "IsBlockPropertyChecked": "",
@@ -461,7 +478,7 @@
                 "Key": "Failed",
                 "Title": "",
                 "SortOrder": "4",
-                "ValueId": "2d99ff9b-a0c5-49d9-a366-b4dc790200de",
+                "ValueId": "777d30c4-d507-40c9-8d6e-b4dc843f00de",
                 "LType": "LSignal",
                 "IsExpanded": "False",
                 "IsBlockPropertyChecked": "",
